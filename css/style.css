@@ -33,7 +33,7 @@ body{
     flex-direction: column;
     padding: 0px 24px;
     width:1500px;
-    min-height: 100vh;
+    
 }
 
 nav{
@@ -267,7 +267,7 @@ body.dark .links a{
 body.dark .links a:hover{
     color: var(--color-orange);
 }
-body.dark  h1{
+body.dark .container h1{
     color: var(--bg-light);
 }
 body.dark .ola{
@@ -287,6 +287,9 @@ body.dark .btns button:hover {
     background-color: var(--color-orange);
 }
 
+.chamada h1{
+    color: #8C52FF;
+}
 
 
 
